@@ -12,9 +12,9 @@ import TapToReveal from "@/components/TapToReveal"
 import MusicPlayer from "@/components/MusicPlayer"
 
 // Change this to your anniversary date
-const ANNIVERSARY_DATE = "2025-08-02T12:00:00"
+const ANNIVERSARY_DATE = "2026-07-07T12:00:00"
 // Change this to the date you got together
-const TOGETHER_DATE = "2019-08-02T12:00:00"
+const TOGETHER_DATE = "2020-07-07T12:00:00"
 
 export default function Home() {
   const [loading, setLoading] = useState(true)
@@ -67,14 +67,11 @@ export default function Home() {
   ]
 
   // Change this message according to you
-  const message = `Dear Love,
-This journey with you has been the most beautiful adventure of my life. Every moment spent with you feels like a blessing, and I cherish each day we've been together.
-From our first meeting to today, you've filled my life with joy, laughter, and unconditional love. Your smile brightens my darkest days, and your love gives me strength when I need it most.
-As we celebrate another year together, I want you to know that my love for you grows stronger with each passing day. You are my best friend, my confidant, and my soulmate.
-Happy Anniversary, my love! Here's to many more years of creating beautiful memories together.
-With all my heart,
-Yash Kewat`
+  const message = `Thank you for everything you have done for me. I love you sooo sooo much,
+  I can't wait to see more and many more to come with you. I love you to the moon and back, more and forever. 
+  You always bring joy and hope to my life. I will always be here beside you and support you in every way you choose.
 
+Your wife`
   return (
     <main className="min-h-screen overflow-x-hidden bg-gradient-to-br from-pink-100 via-purple-50 to-blue-100">
       <FloatingElements />
@@ -169,7 +166,7 @@ Yash Kewat`
                 transition={{ delay: 1.5 }}
                 className="text-center mt-16 mb-8 text-pink-600"
               >
-                <p className="text-lg font-medium">Made with ❤️ by YASH KEWAT</p>
+                <p className="text-lg font-medium">Made with ❤️ by Siri Your wife </p>
               </motion.footer>
             </motion.div>
           </>
